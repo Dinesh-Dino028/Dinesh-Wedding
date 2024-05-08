@@ -14,7 +14,7 @@
 $(document).ready(function(){
      // This function runs when the document is ready (i.e., when the webpage is opened)
      var audio = document.getElementById("my_audio");
-     audio.loop = true; // Enable looping
+     audio.loop = false; // Enable looping
      audio.play();
      console.log('Definitely Come to the Wedding');
  });
